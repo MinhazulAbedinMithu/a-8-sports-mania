@@ -66,7 +66,7 @@ const TeamDetails = () => {
                             </ul>
                         </div>
                     <div className="col-lg-6">
-                        <img className="img-fluid" src={strGender === 'Female' ? femaleImage : maleImage} alt="Team Image"/>
+                        <img className="img-fluid" alt="Team Image" src={strGender === 'Female' ? femaleImage : maleImage} />
                     </div>
                 </div>
                 <div className="row">
