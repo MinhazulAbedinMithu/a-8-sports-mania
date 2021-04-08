@@ -39,7 +39,7 @@ const TeamDetails = () => {
     return (
         <div>
             <div className='container-fluid px-0'>
-                <img src={strTeamBanner} alt='team banner' style={styleBanner}/>
+                <img src={strTeamBanner} alt='' style={styleBanner}/>
             </div>
             <div className="container">
                 <div className="row my-5 bg-primary rounded py-3 text-white align-items-center" >
