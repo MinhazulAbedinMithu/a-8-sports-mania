@@ -1,0 +1,29 @@
+.banner {
+    text-align: center;
+    background-image: url('../../images/header.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 250px;
+    padding-top: 50px;
+    z-index: -1;
+  }
+  .banner::before {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+    content: ' ';
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .banner-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+  }
