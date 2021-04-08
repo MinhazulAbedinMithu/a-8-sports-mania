@@ -39,12 +39,12 @@ const TeamDetails = () => {
     return (
         <div>
             <div className='container-fluid px-0'>
-                <img src={strTeamBanner} style={styleBanner}/>
+                <img src={strTeamBanner} alt='team banner' style={styleBanner}/>
             </div>
             <div className="container">
                 <div className="row my-5 bg-primary rounded py-3 text-white align-items-center" >
                         <div className="col-md-6 px-5">
-                            <img src={strTeamBadge} className="w-50" rounded-circle/>
+                            <img src={strTeamBadge} alt='team badge' className="w-50" rounded-circle/>
                             <h2>{strTeam}</h2>
                             <ul>
                                 <li>
@@ -78,17 +78,17 @@ const TeamDetails = () => {
                     <div className=" text-center">
                         <div className="d-flex justify-content-center py-5">
                             <div className="px-3">
-                                <a href={strTwitter === '' ? 'https://www.twitter.com' : `https://${strTwitter}`} target='_blank' className="nav-link pb-4">
+                                <a href={strTwitter === '' ? 'https://www.twitter.com' : `https://${strTwitter}`}>
                                 <FontAwesomeIcon icon={faTwitter} size='3x'/>
                                 </a>
                             </div>
                             <div className="px-3">
-                                <a href={strFacebook === '' ? 'https://www.facebook.com' : `https://${strFacebook}`} target='_blank'>
+                                <a href={strFacebook === '' ? 'https://www.facebook.com' : `https://${strFacebook}`}>
                                     <FontAwesomeIcon icon={faFacebook} size='3x' color='blue'/>
                                 </a>
                             </div>
                             <div className="px-3">
-                                <a href={strYoutube === '' ? 'https://www.youtube.com' : `https://${strYoutube}`} target='_blank'>
+                                <a href={strYoutube === '' ? 'https://www.youtube.com' : `https://${strYoutube}`}>
                                     <FontAwesomeIcon icon={faYoutube} size='3x' color='red'/>
                                 </a>
                             </div>
