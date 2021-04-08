@@ -1,15 +1,15 @@
-import { Link, useHistory } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const TeamCard = (props) => {
     const { idTeam, strTeam, strTeamBadge, strSport } = props.team;
-    const cardStyle = {
-        backgroundColor : '#fff',
-        borderRadius: '10px',
-        textAlign: 'center',
+    // const cardStyle = {
+    //     backgroundColor : '#fff',
+    //     borderRadius: '10px',
+    //     textAlign: 'center',
 
-    }
+    // }
     const imgStyle ={
         width: '50%',
         margin: 'auto',
